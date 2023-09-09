@@ -1,7 +1,7 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 menu = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="message me", url='https://t.me/chorselty')],
+    [InlineKeyboardButton(text="message me", callback_data="my_page")],
     [InlineKeyboardButton(text="any function", callback_data="menu")]
 ])
 
